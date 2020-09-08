@@ -19,11 +19,14 @@ function onload() {
                 count++;
             }
         }
-        descElement.innerText = "当前页面题数" + count;
+        descElement.innerText = `当前页面题数${count}`;
     }
     setTimeout(onload, 1000)
 }
 
+if (location.href === "https://leetcode-cn.com/problemset/all/") {
+    location.href = "https://leetcode-cn.com/problemset/all/?status=%E6%9C%AA%E5%81%9A"
+}
 document.onreadystatechange = function () {
     if (document.readyState === "complete") {
         setTimeout(onload, 1000)
