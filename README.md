@@ -15,7 +15,6 @@ leetcode是一个好网站，然而广告有点太显眼了，物极必反，故
 ![我不当会员](img/no-member.png)
 * 隐藏掉碍眼的vip题目
 ![隐藏vip题目](img/hide-vip-problem.png)
-* 隐藏掉vip题目之后，显示还剩下多少道题
-![显示还剩下多少道题](img/show-count.png)
-* 首次加载的时候自动跳转到未做页面
+* 隐藏掉vip题目
+![显示做题状态](img/status.jpg)
 

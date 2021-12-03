@@ -16,7 +16,8 @@
         "haha.css"
       ],
       "js": [
-        "haha.js"
+        "haha.js",
+        "axios.min.js"
       ]
     }
   ]
