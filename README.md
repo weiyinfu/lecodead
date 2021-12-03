@@ -13,8 +13,8 @@ leetcode是一个好网站，然而广告有点太显眼了，物极必反，故
 # 功能简介
 * 我不当会员
 ![我不当会员](img/no-member.png)
-* 隐藏掉碍眼的vip题目
+* 隐藏掉碍眼的vip题目   
 ![隐藏vip题目](img/hide-vip-problem.png)
-* 隐藏掉vip题目
+* 显示做题进度   
 ![显示做题状态](img/status.jpg)
 
