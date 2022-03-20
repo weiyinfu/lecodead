@@ -12,7 +12,7 @@ function getSolveStatus(callbackfn) {
     if (!parent) {
         return;
     }
-    ele.style = "margin:20px;"
+    ele.style = "margin:20px;display:flex;align-items:center;justify-content:center;flex-direction:column;"
     parent.insertBefore(ele, son);
     axios.post('/graphql/', payload).then(resp => {
         console.log(resp.data);
