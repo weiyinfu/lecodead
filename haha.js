@@ -69,7 +69,7 @@ ${html}
 function hideVipProblems() {
     if (location.pathname.startsWith(problemUrl)) {
         const trs = document.querySelectorAll("[role=row]")
-        const forbidden = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="w-[18px] h-[18px] text-brand-orange dark:text-dark-brand-orange"><path fill-rule="evenodd" d="M7 8v2H6a3 3 0 00-3 3v6a3 3 0 003 3h12a3 3 0 003-3v-6a3 3 0 00-3-3h-1V8A5 5 0 007 8zm8 0v2H9V8a3 3 0 116 0zm-3 6a2 2 0 100 4 2 2 0 000-4z" clip-rule="evenodd"></path></svg>`
+        const forbidden = `<path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 2.23858 2.23858 0 5 0H24C26.7614 0 29 2.23858 29 5V11C29 13.7614 26.7614 16 24 16H5C2.23858 16 0 13.7614 0 11V5Z" fill="#FFA116"></path>`
         for (let i = 0; i < trs.length; i++) {
             if (trs[i].innerHTML.indexOf(forbidden) !== -1) {
                 trs[i].style.display = 'none';
