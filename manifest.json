@@ -2,7 +2,7 @@
   "name": "lecodead",
   "description": "leetcode去广告插件",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "128": "leetcode.png",
     "32": "leetcode.png"
@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://leetcode-cn.com/*"
+        "https://leetcode-cn.com/*",
+        "https://leetcode.cn/*"
       ],
       "css": [
         "haha.css"
